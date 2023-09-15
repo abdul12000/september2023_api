@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4984d5d8-7300-44c7-b94d-50e3ad203610" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/BaseSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/SocialNetworkingStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/RequestBodyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/feature_files/SocialNetworking.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/payloads/PostPayload.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredTest/RestAssuredGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredTest/RestAssuredPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+    <list default="true" id="4984d5d8-7300-44c7-b94d-50e3ad203610" name="Changes" comment="Adding changes for my user story">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AnotherMainClassForTestingGit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/RequestBodyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/RequestBodyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/feature_files/SocialNetworking.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/feature_files/SocialNetworking.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -148,10 +142,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="JUnit.RestAssuredGet.deleteSpecificPost" />
-        <item itemvalue="JUnit.RestAssuredPost.PatchAPost" />
         <item itemvalue="JUnit.RestAssuredPost.PutAPost" />
+        <item itemvalue="JUnit.RestAssuredPost.PatchAPost" />
         <item itemvalue="JUnit.RestAssuredPost.CreateAPost" />
+        <item itemvalue="JUnit.RestAssuredGet.deleteSpecificPost" />
       </list>
     </recent_temporary>
   </component>
@@ -165,5 +159,9 @@
       <updated>1694202075407</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding changes for my user story" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding changes for my user story" />
   </component>
 </project>

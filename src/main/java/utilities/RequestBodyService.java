@@ -9,4 +9,10 @@ public class RequestBodyService {
         requestBody.set("body", body );
 
     }
+    public void setRequestBodyForComment(DocumentContext requestBody, String userId, String title, String body){
+        requestBody.set("userId", userId );
+        requestBody.set("title", title );
+        requestBody.set("body", body );
+
+    }
 }

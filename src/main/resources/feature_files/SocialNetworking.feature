@@ -41,3 +41,15 @@ Feature: SocialNetworking
     Examples:
       | id | userId | title                     | body                                                        |
       | 1  | 200    | My last holiday to Brazil | I went to brazil with my family and we had a very good time |
+
+
+    #  @TestToRun
+#  to be completed
+  Scenario Outline:Get a specific Comment
+    Given service is up and running
+    When I send GET request to get a specific post using id "<id>"
+    Then the specific post details"<id>", "<title>" and "<body>" are returned with status code of 200
+    Examples:
+      | id | title                                                                      | body                                                                                                                                                              |
+      | 1  | sunt aut facere repellat provident occaecati excepturi optio reprehenderit | quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto |
+
